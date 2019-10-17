@@ -1,0 +1,18 @@
+/* for custom attribute  first create attribute after */
+
+
+<?php
+
+$product = $block->getProduct();
+
+?>
+<ul class="customattr" style="list-style-type:disc;">
+  <li><?php echo $product->getData('description2'); ?></li>
+  <li><?php echo $product->getData('description3'); ?></li>
+  <li><?php echo $product->getData('description4'); ?></li>
+  <li><?php echo $product->getData('description5'); ?></li>
+  <li><?php echo $product->getData('descriptionb'); ?></li>
+</ul>
+
+
+
