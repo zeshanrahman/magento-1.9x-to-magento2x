@@ -1,6 +1,11 @@
-/* for custom attribute  first create attribute after */
 
 
+<!-- asssign place of attribute --->
+
+<block class="Magento\Catalog\Block\Product\View" name="product.info.customattr" template="product/view/customattr.phtml" after="product.info.short.description"/>
+
+
+/* for custom attribute  first create attribute file customattr.phtml after */
 <?php
 
 $product = $block->getProduct();
